@@ -1,0 +1,102 @@
+/* Header */
+
+header {
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #ffffff;
+  background: #ffffff;
+  border-bottom: 5px solid #ffffff;
+}
+
+/* Nav */
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+
+
+/* Body */
+
+body {
+  background: url("https://raw.githubusercontent.com/RutgersCodingBootcamp/RUTSOM201902FSF2/master/01-html-git-css/02-Homework/Solutions/recommended-homework-solution/assets/images/concrete_seamless.png?token=AtVMUD1rShkhXmBiibo2zNOTtoyy2Zabks5cgvTowA%3D%3D")
+}
+
+/* General */
+
+.container-fluid {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+.container {
+  background-color: #4aaaa5;
+  color: #ffffff;
+}
+
+#main-container{
+  min-height: calc(100vh - 70px);
+}
+
+/* Footer */
+
+footer {
+  margin-top: 30px;
+  border-top: 5px solid #ffffff;
+}
+
+/* index */
+#logo {
+  float: left;
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+/* Contact */
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 1px solid  #ffffff;
+}
